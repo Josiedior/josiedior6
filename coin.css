@@ -1,0 +1,551 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url('../Logo.jpg');
+    
+    color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.hero{
+    background-image: linear-gradient(#c847f1,#380231);
+}
+
+.top-bar{
+    padding: 20px;
+}
+
+.top-bar img{
+    width: 130px;
+}
+.top-button{
+    float: right;
+}
+.top-button a{
+    margin: 0 8px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background: #fff;
+    color: #333;
+    text-decoration: none !important;
+    border: 2px solid #fff;
+}
+.login-btn{
+    background: transparent !important;
+    color: #fff;
+}
+.top-button a :hover{
+    background: #fff;
+    color: #007bff;
+}
+.hero .container{
+    margin-top: 13%;
+}
+
+.start-btn{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.home-img img{
+    width: 85%;
+    min-width: 350px;
+    margin-top: 30px;
+}
+.infulencers{
+    padding: 30px 0;
+    background: #efefef;
+}
+.infulencers h3{
+    margin: 60px 0;
+    color: #555;
+}
+.person-img{
+    height: 400px;
+
+}
+
+.person-img img{
+    width: 80%;
+    height: 80%;
+    
+}
+
+.person-details{
+    background: white;
+    color: black;
+    padding: 8px 0 1px;
+    margin-bottom: 15px;
+}
+.profile{
+    padding: 30px 0;
+    background-image: linear-gradient(#c847f1, #380231);
+}
+.profile-card{
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 40px 0 rgba(17, 39, 125, 0.18);
+}
+.profile-details{
+    padding: 39px;
+}
+.profile-details h2{
+    color: #c204ff;
+    margin-bottom: 35px;
+}
+.followers span{
+    display: inline-block;
+    color: #c204ff;
+    margin: 35px 20px 35px 0;
+}
+
+.profile-details h5,p{
+    color: #555;
+}
+.btn-follow{
+    background: #c204ff;
+    border:none;
+    color: #fff;
+    width: 130px;
+    height: 40px;
+    margin-top: 54px;
+    border-radius: 50px;
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    width: 84%;
+    min-height: 330px;
+}
+
+/* Style the navbar */
+#main-header{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    overflow: hidden;
+    background-image: url('../#images/pattern-with-gold-black-tropical-leaves-vector-23966407.jpg');
+}
+
+.HOME li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    font-size: large;
+    float: left;
+}
+  
+
+.navbar{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    margin: 0%;
+    overflow: hidden;
+}
+
+/* Navbar links */
+#main-header a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    overflow: hidden;
+    margin: 0%;
+}
+
+.logo h3{
+    color: #007bff;
+}
+
+.logo h4{
+    color: purple;
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.6em;
+}
+
+.offer{
+    background-image: url('../images/road.jpg');
+    color: #000;
+    background-size: cover;
+    background-position: center;
+    font-size: large;
+}
+
+.subscribe a{
+    width: 100px;
+    display: block;
+    color: #fff !important;
+    background: black;
+    text-decoration: none !important;
+    padding: 5px;
+    
+}
+
+.offer img{
+    width: 300px;
+    height: 300px;
+    margin: -100px;
+    margin-top: 150px;
+}
+
+
+/*--team members--*/
+#team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+  
+.profile-pic{
+    margin-top: 25px;
+}
+  
+.profile-pic .imgbox{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+  
+.profile-pic .imgbox img{
+    filter: grayscale(1);
+}
+  
+.profile-pic .imgbox img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+  
+.profile-pic h2{
+    font-size: 22%;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+}
+  
+.profile-pic h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: black !important;
+}
+  
+.imgbox:hover{
+    opacity: 1;
+}
+
+
+.clr{
+    clear: both;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ccc;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin: 20px 0;
+}
+
+.block :hover{
+    color: #555;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:active{
+    color: green;
+}
+
+a:hover{
+    color: green;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+/* --Get in Touch-- */
+#contact{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+  
+.contact-form{
+    padding: 15px;
+}
+  
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+  
+::placeholder{
+    color: #999 !important;
+}
+  
+.follow{
+    background-color: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+  
+.contact-info .fa{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/*--FOOTER--*/
+#footer{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+    margin-top: 10px;
+}
+  
+.fa-heart-o{
+    margin: 3px;
+    color: red;
+}
+  
+.buttom a:hover{
+    color: red;
+    background: gold;
+}
+  
+.icon{
+    background-size: 100%;
+}
+
+.footer1{
+    color: black;
+    margin-top: 16px;
+}
+  
+.footer1 h4{
+    text-decoration: none;
+    text-align: center;
+    color: black !important;
+    padding-bottom: 10px;
+}
+  
+.footer1 h4::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+ 
+/* About Us */
+.profile-1{
+    padding: 70px 10px 10px;
+    background-color: white;
+}
+
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+}
+
+.profile-1 img{
+    top: -60px;
+    position: absolute;
+    left: calc(40%-50px);
+    border: 10px solid #fff;
+    width: 150px;
+    height: 130px;
+    float: center;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.profile-1 h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #007b00;
+}
+    
+#testimonials span{
+    font-size: 12px;
+    color:black;
+    margin-right: 15px;
+}
+    
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+
+    .profile-1 img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}    
+
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+blockquote::before{
+    content: '\93';
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+    right: 5px;
+    quotes: fa-solid left;
+}
+  
+blockquote::after{
+    content: '\94';
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.profile-1:hover{
+    box-shadow: 0 0 10px 4px #E2E2E2;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/*blockquote*/
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+blockquote::before{
+    content: '\93';
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+    right: 5px;
+}
+  
+blockquote::after{
+    content: '\94';
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+    content: "";
+    clear: both;
+    display: table;
+    background-clip: content-box;
+}
+
+
+
+
+
+  
